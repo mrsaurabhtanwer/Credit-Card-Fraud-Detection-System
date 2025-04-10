@@ -24,3 +24,4 @@ if st.button("Predict Fraud"):
      prediction = model.predict(input_scaled)[0]
      st.write("🟢 Legitimate Transaction" if prediction == 0 else "🔴 Fraudulent Transaction")
 
+#saurabh
